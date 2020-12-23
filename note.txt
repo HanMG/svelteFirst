@@ -24,3 +24,13 @@ svelte 단점
     CDN 미제공
 
     IE지원X
+
+REPL(read-eval-print loop) : 
+    사용자에게 데이터를 입력받고 이를 평가(실행)하고,
+    결과를 반환하는 단순한 상호작용 컴퓨터 프로그래밍 환경
+
+    https://svelte.dev/repl/hello-world?version=3.31.0
+
+svelte template rollup버전으로 사용하길 권장함(webpack도 존재)
+    npx degit sveltejs/template svelte-app
+    svelte-app은 프로젝트명
