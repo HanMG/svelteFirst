@@ -3,7 +3,7 @@
     
     <p>Starting with svelte template,</p>
     <p>Importing svelte, svelte-spa-router</p>
-    <p>Learning From Inflearn HEROPY's tutorial</p>
+    <p>Learning From Inflearn <a class="teacher" href="https://heropy.blog/">HEROPY's</a> tutorial</p>
 </main>
 
 <style>
@@ -15,5 +15,10 @@
 
     h1 {
         color: skyblue;
+    }
+
+    .teacher{
+        color: Orange;
+        font-weight: bold;
     }
 </style>
