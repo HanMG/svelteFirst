@@ -1,21 +1,21 @@
 svelte 특징
 
-1. No Virtual DOM!
-    no diffing, no overhead, 빠른성능
-    즉, 가상돔 사용안함
+    1. No Virtual DOM!
+        no diffing, no overhead, 빠른성능
+        즉, 가상돔 사용안함
 
-    @diffing : 차이점 비교하는거 (ex: react, vue)
+        @diffing : 차이점 비교하는거 (ex: react, vue)
 
-    @overhead : 어떤 처리를 위해 들어가는 간접적인 시간이나 메모리등(ex: react, vue)
+        @overhead : 어떤 처리를 위해 들어가는 간접적인 시간이나 메모리등(ex: react, vue)
 
-2. Truly reactive!
-    framework-less vanillajs : 기본 js사용
+    2. Truly reactive!
+        framework-less vanillajs : 기본 js사용
 
-    Only use devDemdemcies : 
-    어플리케이션을 vanillajs로 변환(컴파일)하고 그 결과만 
-    동작하기때문에, 브라우저(런타임)에서 동작하지 않는 컴파일러라고함
+        Only use devDemdemcies : 
+        어플리케이션을 vanillajs로 변환(컴파일)하고 그 결과만 
+        동작하기때문에, 브라우저(런타임)에서 동작하지 않는 컴파일러라고함
 
-    명시적 설계 (창의적 작업)
+        명시적 설계 (창의적 작업)
 
 svelte 단점
 
@@ -34,3 +34,12 @@ REPL(read-eval-print loop) :
 svelte template rollup버전으로 사용하길 권장함(webpack도 존재)
     npx degit sveltejs/template svelte-app
     svelte-app은 프로젝트명
+
+
+1. 선언적 렌더링
+    sciprt태그 안에서 선언한 변수,함수들을 중괄호{}를 통해 사용가능 
+        ex: {변수명}, {함수명}
+                
+2. 조건문, 반복문
+    
+    
