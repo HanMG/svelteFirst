@@ -28,6 +28,18 @@
       use:active>
       2-2. 반복문
     </a>
+    <a 
+      href="/3-1"
+      use:link
+      use:active>
+      3-1. 이벤트 헨들링
+    </a>
+    <a 
+      href="/3-2"
+      use:link
+      use:active>
+      3-2. 이벤트 헨들링
+    </a>
   </header>
   
   <style>
