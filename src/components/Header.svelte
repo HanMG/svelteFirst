@@ -46,6 +46,12 @@
       use:active>
       4. 컴포넌트
     </a>
+    <a 
+      href="/5"
+      use:link
+      use:active>
+      5. 스토어
+    </a>
   </header>
   
   <style>

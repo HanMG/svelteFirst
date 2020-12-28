@@ -35,11 +35,4 @@ svelte template rollup버전으로 사용하길 권장함(webpack도 존재)
     npx degit sveltejs/template svelte-app
     svelte-app은 프로젝트명
 
-
-1. 선언적 렌더링
-    sciprt태그 안에서 선언한 변수,함수들을 중괄호{}를 통해 사용가능 
-        ex: {변수명}, {함수명}
-                
-2. 조건문, 반복문
-    
-    
+svelte는 다른 프레임워크와 다르게 내부에 포함되어있음.    
