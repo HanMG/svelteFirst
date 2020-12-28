@@ -40,6 +40,12 @@
       use:active>
       3-2. 이벤트 헨들링
     </a>
+    <a 
+      href="/4"
+      use:link
+      use:active>
+      4. 컴포넌트
+    </a>
   </header>
   
   <style>
@@ -47,4 +53,11 @@
       font-weight: bold;
       text-decoration: underline;
     }
+
+    a {
+      border: 5px solid skyblue;
+      padding: 5px;
+      line-height: 45px;
+    }
+    
   </style>
