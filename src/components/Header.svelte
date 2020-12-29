@@ -52,6 +52,12 @@
       use:active>
       5. 스토어
     </a>
+    <a 
+      href="/6"
+      use:link
+      use:active>
+      6. Todo
+    </a>
   </header>
   
   <style>
